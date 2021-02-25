@@ -9,7 +9,7 @@ February 2020
 This project was created to demonstrate a number VBA scripting concepts on an actual data set of historical stock market data. Concepts covered include: conditionals, loops, nested loops, conditional formatting, data analysis and calculation, etc.
 
 ## Notes:
-The "stockData" subroutine contains the main script for analyzing the initial data set and reading, storing and performing calculations on various values, then inserting stored values/calculation results in separate table. This subroutine also contains some conditional formatting instructions at the end.
+The "stockData" subroutine contains the main script for analyzing the initial data set and reading, storing and performing calculations on various values, then inserting stored values/calculation results into a separate table. This subroutine also contains some conditional formatting instructions at the end.
 
 The separate "getAdditional" subroutine runs (via the "Call" instruction at the end of the stockData sub) after the initial sub and creates an additional table of data calculations, and also performs some minor formatting.
 
